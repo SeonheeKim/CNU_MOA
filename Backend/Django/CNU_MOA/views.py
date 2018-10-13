@@ -28,12 +28,7 @@ def computer_administration_notice(request, in_year, in_month, in_day, format=No
         event = CrawlingData.objects.filter(depart=1, board=1, year__gte=in_year)
 
         value_list = event.values_list('year', flat=True)
-
-        for i in range(0, len(value_list)):
-            if int(value_list[i]) == int(in_year):
-                if int(event[i].month) < int(in_month):
-                    print("1")
-
+        
         serializer = CrawlingSerializer(event, many=True)
         return Response(serializer.data)
     elif request.method == 'POST':
