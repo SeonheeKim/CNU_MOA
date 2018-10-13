@@ -6,11 +6,11 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/MainActivity.java" line="92" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/MainActivity.java" line="93" />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -52,23 +52,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HttpManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/HttpManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="228">
+              <caret line="34" column="179" selection-start-line="34" selection-start-column="179" selection-end-line="34" selection-end-column="179" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#529#2158#0" expanded="true" />
+                <element signature="e#2157#2158#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="133" column="25" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
+            <state relative-caret-position="48">
+              <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -166,6 +168,8 @@
       <find>refresh</find>
       <find>refreshTi</find>
       <find>refresh()</find>
+      <find>final</find>
+      <find>sYear</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -2425,7 +2429,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/NetworkTask.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/HttpManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/GllManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/DepartBoard.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
@@ -2440,6 +2443,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/DataManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/SettingActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/HttpManager.java" />
       </list>
     </option>
   </component>
@@ -2678,11 +2682,11 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.33050847" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32909605" />
-      <window_info anchor="bottom" id="Logcat" order="7" visible="true" weight="0.39689267" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="7" visible="true" weight="0.39689267" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20872483" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.43134534" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32768363" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -2704,20 +2708,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -2731,6 +2725,8 @@
           <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#529#2158#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2811,6 +2807,8 @@
           <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#529#2158#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2911,6 +2909,8 @@
           <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#529#2158#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2950,6 +2950,8 @@
           <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#529#2158#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3004,16 +3006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/HttpManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3095,8 +3087,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="133" column="25" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
+        <state relative-caret-position="48">
+          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-27/android.jar!/java/net/URLConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+          <folding>
+            <element signature="e#3433#3434#0" expanded="true" />
+            <element signature="e#3484#3485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kanghyunsoo/cnu_moa/HttpManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="34" column="179" selection-start-line="34" selection-start-column="179" selection-end-line="34" selection-end-column="179" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#529#2158#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

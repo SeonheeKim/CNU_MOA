@@ -11,6 +11,7 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Locale;
 
 public class HttpManager {
     static String result="";
@@ -18,19 +19,20 @@ public class HttpManager {
         Thread t = new Thread() {
             public void run() {
                 HttpURLConnection urlConn = null;
-                String params = String.format("?depart=%d&board=%d&year=%d&month=%d&day=%d", depart, board, year, month, day);
+                String params = String.format(Locale.KOREA,"/%d/%d/%d/%d/%d?format=json", depart, board, year, month, day);
 
                 try {
                     URL url = new URL(_url + params);
                     urlConn = (HttpURLConnection) url.openConnection();
-
                     urlConn.setRequestMethod("GET");
-                    urlConn.setDoInput(true);
-                    urlConn.setDoOutput(true);
-                    urlConn.setUseCaches(false);
-                    urlConn.setDefaultUseCaches(false);
-                    urlConn.connect();
-                    urlConn.getOutputStream().close();
+                    urlConn.setRequestProperty("Accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8");
+                    urlConn.setRequestProperty("Accept-Encoding","gzip, deflate");
+                    urlConn.setRequestProperty("Accept-Language","ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7");
+                    urlConn.setRequestProperty("Cache-Control","max-age=0");
+                    urlConn.setRequestProperty("Connection","keep-alive");
+                    urlConn.setRequestProperty("Host","18.188.69.148:8000");
+                    urlConn.setRequestProperty("Upgrade-Insecure-Requests","1");
+                    urlConn.setRequestProperty("User-Agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36");
 
                     if (urlConn.getResponseCode() != HttpURLConnection.HTTP_OK)
                         return;

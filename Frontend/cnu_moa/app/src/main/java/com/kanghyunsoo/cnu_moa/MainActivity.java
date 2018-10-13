@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     ListView lv;
     TextView tvTime;
     HttpManager hm;
-    final String url="http://cnumoa.dothome.co.kr/get.html";
+    final String url="http://18.188.69.148:8000";
     ArrayAdapter<String> adapter;
     ArrayList<String> texts,links;
     SwipeRefreshLayout swipeRefreshLayout;
@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public void onRecieve(String result){
         Log.d("khs","onRecieve");
+        Log.d("khs",result);
         try {
             JSONArray jarray = new JSONArray(result);
             for(int i=0;i<jarray.length();i++){
