@@ -7,3 +7,8 @@
 #### Server : AWS EC2
 #### Frontend : Android
 #### Backend : Crawling, Django, Django Rest Framework, SQLite
+<br></br>
+## 개발자
+#### 컴퓨터공학과 201802048 강현수
+#### 컴퓨터공학과 201802111 손중영
+#### 컴퓨터공학과 201502026 
