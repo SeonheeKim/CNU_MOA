@@ -1,1 +1,2 @@
-# CNU_MOA
+# CNU_MOA . 
+## 목적  
