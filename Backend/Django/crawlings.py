@@ -70,7 +70,7 @@ def id_2x(_url,_board): #기숙사 통합
             data[MONTH]=int(filtering(times[i].text[5:7]))
             data[DAY]=int(filtering(times[i].text[8:10]))
             data[VIEWS]=int(filtering(views[i].text))
-            data[LINK]=filtering(links[i])
+            data[LINK]="https://dorm.cnu.ac.kr/_prog/_board" .filtering(links[i][1:])
             data_list.append(data)
         
 
